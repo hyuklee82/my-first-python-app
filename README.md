@@ -1,6 +1,6 @@
 # 💪 ARC Gym Tracker
 
-A simple mobile-friendly web app to follow your Cockburn ARC beginner programme
+A simple mobile-friendly web app to follow your Cockburn ARC intermediate programme
 day by day, tick off each exercise, and log the weight you used.
 
 Built with [Streamlit](https://streamlit.io) — pure Python, free to host, opens
@@ -11,14 +11,14 @@ in any phone browser.
 ## What it does
 
 - Shows **today's plan** automatically (gym session, active recovery, or rest).
-- Gym days list each machine with its **suggested starting weight** and **sets × reps**.
+- Gym days list each machine (with its free-weight option) plus a **load guide** and **sets × reps**.
 - **Tick a box** as you finish each exercise; a progress bar fills up.
 - **Log the weight** you actually used in the box next to each exercise.
 - Browse any date with **Prev / Today / Next** or the date picker.
-- Sidebar shows the **week at a glance** plus how the weights and progression work.
+- Sidebar shows the **week at a glance** plus the effort, weight and progression guidance.
 
-The schedule runs on your Tuesday / Thursday / Saturday cycle (Week 1 = A-B-A,
-Week 2 = B-A-B), with Monday and Friday as rest days.
+The schedule runs on your Tuesday / Thursday / Saturday cycle, rotating the three
+full-body sessions **A → B → C** on each gym visit, with Monday and Friday as rest days.
 
 ---
 
